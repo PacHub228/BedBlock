@@ -1,0 +1,4 @@
+name: bedblock
+version: '${project.version}'
+main: pac.hy_da.bedblock.Bedblock
+api-version: '1.16'
