@@ -1,0 +1,10 @@
+# Build
+/target/
+
+# IDE / tooling
+/.claude/
+/.idea/
+*.iml
+
+# Local test server artifacts
+/server.log
