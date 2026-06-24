@@ -2,3 +2,14 @@ name: bedblock
 version: '${project.version}'
 main: pac.hy_da.bedblock.Bedblock
 api-version: '1.16'
+commands:
+  bedblock:
+    description: Управление плагином BedBlock
+    usage: /bedblock reload
+permissions:
+  bedblock.bypass:
+    description: Позволяет спать (обход блокировки)
+    default: false
+  bedblock.reload:
+    description: Перезагрузка конфига
+    default: op
